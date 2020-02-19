@@ -13,11 +13,11 @@ public class LaunchingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_launching);
 
         //send();
-//        if (chackLoggedIn()){
-//            sendToContact();
-//        }else {
-//           sendToSignUp();
-//        }
+        if (chackLoggedIn()){
+            sendToContact();
+        }else {
+           sendToSignUp();
+        }
     }
 
     private boolean chackLoggedIn(){
